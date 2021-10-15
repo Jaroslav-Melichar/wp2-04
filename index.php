@@ -7,7 +7,8 @@
     <title>Runners</title>
 </head>
 <body>
-<ul>    
+
+<ol>    
 <?php
 
   $runners[0] = "Jaroslav Melichar";
@@ -25,7 +26,7 @@
     echo "<li> $runners[$i]</li> ";
 }
 ?>
-</ul>
+</ol>
 
 
 
