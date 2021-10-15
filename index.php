@@ -7,20 +7,25 @@
     <title>Runners</title>
 </head>
 <body>
+<ul>    
 <?php
 
-  $runners[0] = “Jaroslav Melichar”;
-  $runners[1] = “Alexandr dulovec”;
-  $runners[2] = “Martin Kokeš”;
-  $runners[3] = “Matěj Pošík”;
-  $runners[4] = “Zuzka Kaplanová”;
-  $runners[5] = “Daniel Šuman”;
-  $runners[6] = “Filip Dupček”;
-  $runners[7] = “Martin Hruška”;
-  $runners[8] = “Nicolas Jan Sefzig”;
+  $runners[0] = "Jaroslav Melichar";
+  $runners[1] = "Alexandr dulovec";
+  $runners[2] = "Martin Kokeš";
+  $runners[3] = "Matěj Pošík";
+  $runners[4] = "Zuzka Kaplanová";
+  $runners[5] = "Daniel Šuman";
+  $runners[6] = "Filip Dupček";
+  $runners[7] = "Martin Hruška";
+  $runners[8] = "Nicolas Jan Sefzig";
 
+  count($runners);
+  for ($i=0; $i <9; $i++) {
+    echo "<li> $runners[$i]</li> ";
+}
 ?>
-
+</ul>
 
 
 
