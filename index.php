@@ -34,7 +34,7 @@
 
 <?php
 
-    $end=50;
+    $end=69;
     $sude= " <b> Sudé čísla </b>: ";
     $liche="<br /> <b> Lichá čísla jsou </b> : ";
 
