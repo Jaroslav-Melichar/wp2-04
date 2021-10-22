@@ -7,6 +7,7 @@
     <title>Runners</title>
 </head>
 <body>
+  <h1> Sportovci </h1>
 
 <ol>    
 <?php
@@ -27,7 +28,26 @@
 }
 ?>
 </ol>
+<br>
 
+<h2> Sudá a lichá čísla </h2>
+
+<?php
+
+    $end=50;
+    $sude= " <b> Sudé čísla </b>: ";
+    $liche="<br /> <b> Lichá čísla jsou </b> : ";
+
+    for($i=1;$i<=$end;$i++)
+    {
+        if($i%2==0)
+        {
+            $sude.=$i.",";
+        }else $liche.=$i.","; 
+    }   
+    echo $sude.$liche;
+
+?>
 
 
 
